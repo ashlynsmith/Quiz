@@ -1,0 +1,43 @@
+/* General CSS */
+body{
+    background-color: #d5f4e6;
+}
+/* Button Styling */
+button {
+    border-style: solid;
+    background-color: #80ced6;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
+section button{
+    margin: auto;
+    display: block;
+
+}
+/* Main Styling of the page */
+section  {
+    text-align: center;
+}
+section h1 {
+    font-size: 3em;
+    background-color: #80ced6;
+    margin: auto;
+}
+h3{
+    font-size: 3em;
+    background-color: #80ced6;
+    margin: auto;
+    text-align: center;
+}
+/* List Styling */
+li{
+    font-size: 3em;
+    font-style: italic;
+}
+
+/* Hides displays */
+.hide {
+    display: none;
+}
