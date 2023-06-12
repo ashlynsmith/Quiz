@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Art Quiz</title>
+</head>
+<body>
+    <!-- View High scores button to switch you to High score -->
+    <header>
+        <button id="highScore">View High Scores</button>
+    </header>
+    <!-- Header/Starting page -->
+    <section id="startQuiz">
+        <h1>Art Quiz</h1>
+        <h2>This quiz is going to test you on art history! <br> Answer quickly to get the best highscore possible:</h2>
+        <h2>Start Quiz by Clicking Start!</h2>
+        <button>Start</button>
+    </section>
+    <!-- Quiz of questions and answers to chose from-->
+    <div id="quiz" class="hide">
+
+        <h2 id="timer"></h2>
+        <h1 id="question"></h1>
+        
+            <button id="answer1"></button>
+            <button id="answer2"></button>
+            <button id="answer3"></button>
+            <button id="answer4"></button>
+            <h2 id="correctAnswer"></h2>
+        
+    </div>
+    <!-- Submitting your High Score Page -->
+    <section id="highScoreInput" class="hide">
+
+        <h1>Finished!</h1>
+        <h2 id="timerInput">Your score is...</h2>
+        <h2>Please enter your initials down below to save your new Highscore!</h2>
+        <input id="submitInitials"></input>
+        <button id="enter">Enter</button>
+    </section>
+    <!-- High Score Page -->
+    <div id="highScorePage" class="hide">
+        <button id="return">Return</button>
+        <h3>These are all your High Scores!</h3>
+        <ul id="highScores" class="showScores">
+        </ul>
+    </div>
+
+    <!-- Link to JS -->
+    <script src="./index.js"></script>
+</body>
+</html>
