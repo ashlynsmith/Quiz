@@ -5,7 +5,7 @@ body{
 /* Button Styling */
 button {
     border-style: solid;
-    background-color: brown;
+    background-color: rgb(178, 105, 54);
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
@@ -22,12 +22,12 @@ section  {
 }
 section h1 {
     font-size: 3em;
-    background-color: #80ced6;
+    background-color:rgb(178, 105, 54) ;
     margin: auto;
 }
 h3{
     font-size: 3em;
-    background-color: #80ced6;
+    background-color: rgb(178, 105, 54);
     margin: auto;
     text-align: center;
 }
